@@ -1,2 +1,2 @@
 ## This is a study project for Harvard University 
-this will be an ongoing repo until the end of the semester
+this will be an ongoing repo until the end of the semester. The purpose of this repo is to expand my learning and grow as a developer and computer scientist. Again, this repo is dedicated to taking class notes.
