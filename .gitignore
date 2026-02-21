@@ -1,0 +1,285 @@
+# ============================================
+# SECURITY & AUTHENTICATION
+# ============================================
+
+# YubiKey & Hardware Security
+yubikey/
+*.yubikey
+yubikey.conf
+yubikey-config/
+.yubico/
+
+# SSH Keys & Credentials
+*.pem
+*.key
+*.ppk
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+id_ecdsa
+id_ecdsa.pub
+known_hosts
+authorized_keys
+ssh_config
+.ssh/
+
+# GPG Keys
+*.gpg
+*.asc
+*.pgp
+secring.*
+pubring.*
+trustdb.gpg
+random_seed
+.gnupg/
+
+# API Keys & Secrets
+*.secret
+*.token
+*_secret
+*_token
+secrets/
+credentials/
+api_keys/
+.credentials/
+
+# Environment & Configuration Files with Secrets
+.env
+.env.*
+.envrc
+config.json
+secrets.yaml
+credentials.json
+service-account.json
+firebase-adminsdk.json
+
+# AWS Credentials
+.aws/
+aws-credentials
+credentials.csv
+
+# ============================================
+# PYTHON
+# ============================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+virtualenv/
+
+# ============================================
+# IDE & EDITORS
+# ============================================
+
+# VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ============================================
+# OPERATING SYSTEMS
+# ============================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# JUPYTER & NOTEBOOKS
+# ============================================
+
+.ipynb_checkpoints
+*.ipynb
+.jupyter/
+
+# ============================================
+# TESTING & COVERAGE
+# ============================================
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+test-results/
+
+# ============================================
+# TYPE CHECKING & LINTING
+# ============================================
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Pyright
+.pyright/
+
+# Ruff
+.ruff_cache/
+
+# ============================================
+# LOGS & DATABASES
+# ============================================
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# ============================================
+# TEMPORARY & CACHE FILES
+# ============================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+.cache/
+cache/
+
+# ============================================
+# DATA FILES (Large/Sensitive)
+# ============================================
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+!package.json
+!tsconfig.json
+data/
+datasets/
+raw_data/
+
+# ============================================
+# COMPILED & PACKAGE FILES
+# ============================================
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ============================================
+# PERSONAL & PRIVATE
+# ============================================
+
+# Private notes and scratch work
+private/
+scratch/
+.notes/
+TODO.private
+personal/
+
+# Backup files
+*.orig
+*.backup
+
+# ============================================
+# PROJECT SPECIFIC
+# ============================================
+
+# Keep empty directories
+!.gitkeep
+
+# Allow specific files if needed
+# !important-file.key  # Uncomment to whitelist specific files
